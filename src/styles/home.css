@@ -29,7 +29,10 @@
     display: flex;
     gap: 24px;
 }
+#dish-price a{
+    text-decoration: none;
 
+}
 #cta_buttons a {
     text-decoration: none;
     color: var(--color-neutral-1);;
