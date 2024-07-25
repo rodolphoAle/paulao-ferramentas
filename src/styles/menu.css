@@ -27,7 +27,9 @@
     position: relative;
     overflow: hidden;
 }
-
+.dish img{
+    max-width: 100%;
+}
 .dish-heart {
     position: absolute;
     background-color: var(--color-primary-6);

@@ -6,7 +6,7 @@
 @import url('footer.css');
 
 :root {
-    --color-primary-1: #DFE2E4;
+    --color-primary-1: #f6f6f6 ;
     --color-primary-2: #ffe8b4;
     --color-primary-3: #f8d477;
     --color-primary-4: #ffe100;
@@ -53,6 +53,11 @@ section {
 .btn-default a{
     text-decoration: none;
 }
+.btn-default a i{
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding-left: 5px;
+}
 .btn-default:hover {
     background-color: var(--color-primary-3);
 }
@@ -90,4 +95,9 @@ section {
 
 .section-subtitle {
     font-size: 2.1875rem;
-} 
+}
+.subtitle-map{
+    color:#008A99;
+    font-size: 1.563rem;
+    
+}
